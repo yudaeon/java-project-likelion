@@ -10,7 +10,12 @@ public class UserTest {
         User daeon = new User();
         daeon.name = "다언";
         daeon.phoneNumber = "010-0000-2222";
-        daeon.age = 26;
+        daeon.age = 20;
+
+        System.out.println(daeon.name);
+        System.out.println(daeon.phoneNumber);
+        System.out.println(daeon.age);
+
 
     }
 }
