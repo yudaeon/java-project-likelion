@@ -1,6 +1,6 @@
 package day5;
 
-public class SpaceInvaer {
+public class SpaceInvaders {
     private void moveLeft() {
         int location = 0;
         location = location -1;
@@ -13,7 +13,7 @@ public class SpaceInvaer {
     }
 
     public static void main(String[] args) {
-        SpaceInvaer si = new SpaceInvaer();
+        SpaceInvaders si = new SpaceInvaders();
         si.moveLeft();
         si.moveRight();
     }
