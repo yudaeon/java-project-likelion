@@ -2,7 +2,7 @@ package codeup;
 
 import java.util.Scanner;
 
-public class codeup13 {
+public class codeup1013 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int val1 = sc.nextInt();
