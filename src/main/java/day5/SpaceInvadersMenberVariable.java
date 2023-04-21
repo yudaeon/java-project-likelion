@@ -1,7 +1,7 @@
 package day5;
 
 public class SpaceInvadersMenberVariable {
-    int location; //클래스의 멤버라는 걸 선언
+    int location; //멤버변수
       public void moveLeft(){
           location = location -1;
           System.out.printf("moveLeft: %d\n", location);
@@ -20,5 +20,9 @@ public class SpaceInvadersMenberVariable {
         simv.moveRight();
         simv.moveRight();
 
+        System.out.printf("최종 위치: %d\n", simv.location);
+        //변수명.멤버변수이름
+        simv.moveLeft();
+        System.out.printf("최종 위치: %d\n", simv.location);
     }
     }
