@@ -7,7 +7,7 @@ public class User {
     String phoneNumber;
     int age;
 
-    boolean isPrime(){
+    boolean isAdult(){
         return age >= 18;
     }
 }
