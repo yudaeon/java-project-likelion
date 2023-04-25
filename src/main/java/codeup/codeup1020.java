@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class codeup1020 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        String[] arr = str.split("\\-");
-        System.out.printf("%s%s", arr[0], arr[1]);
+        String val1 = sc.nextLine();
+        System.out.println(val1.substring(0,6) + val1.substring(7, 14));
     }
 }
