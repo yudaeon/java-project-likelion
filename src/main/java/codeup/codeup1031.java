@@ -1,7 +1,7 @@
 package codeup;
 
 import java.util.Scanner;
-
+//10진수->8진수로 10->12출력
 public class codeup1031 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
