@@ -11,5 +11,7 @@ public class ClassInSchoolTest {
     classInSchool.teacher.address = "경기도 광주시";
 
         System.out.println("classInSchool.teacher.name = " +classInSchool.teacher.name);
+        System.out.println("classInSchool.teacher.age = " +classInSchool.teacher.age);
+        System.out.println("classInSchool.teacher.address = " +classInSchool.teacher.address);
     }
 }
