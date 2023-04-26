@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TwoDimArrSetValue {
     public static void main(String[] args) {
-        // 메소드로 Refactoring을 할 수 있음
+
 
         int[][] arr = new int[3][3];
 
