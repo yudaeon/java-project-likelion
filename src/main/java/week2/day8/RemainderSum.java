@@ -8,7 +8,7 @@ public class RemainderSum {
         int secondremainder  = num % 10;
         num = num / 10;
         int thirdremainder  = num % 10;
-
+       //21 출력
         System.out.println(firstremainder + secondremainder + thirdremainder);
     }
 }
