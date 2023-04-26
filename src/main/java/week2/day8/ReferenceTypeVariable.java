@@ -13,7 +13,5 @@ public class ReferenceTypeVariable {
         String neme;
         String phoneNumber;
         int age;
-
-
     }
 }
