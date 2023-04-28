@@ -20,7 +20,7 @@ public class SwitchCaseDayOfWeek {
                 break;
             case 5:
                 System.out.println("금요일");
-                break;
+
             case 6:
                 System.out.println("토요일");
                 break;
