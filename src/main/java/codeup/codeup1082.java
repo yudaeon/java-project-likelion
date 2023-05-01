@@ -1,7 +1,4 @@
 package codeup;
-
-import javax.swing.plaf.SeparatorUI;
-import javax.swing.plaf.synth.SynthUI;
 import java.util.Scanner;
 
 public class codeup1082 {
