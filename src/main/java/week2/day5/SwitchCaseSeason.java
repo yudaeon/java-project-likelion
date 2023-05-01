@@ -1,4 +1,4 @@
-package week3.day1;
+package week2.day5;
 
 public class SwitchCaseSeason {
     public static void main(String[] args) {
