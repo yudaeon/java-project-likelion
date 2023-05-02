@@ -8,6 +8,6 @@ public class Factorial {
         for (int i = n; i >= 1; i--) {
             System.out.println(i);
             answer *= i;
-        }   System.out.println(answer);
+        }   System.out.println(answer);//
     }
 }
