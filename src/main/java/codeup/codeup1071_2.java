@@ -10,6 +10,6 @@ public class codeup1071_2 {
             val1 = sc.nextInt();
             if (val1 == 0) break;
             System.out.println(val1);
-        } while ( val1 > 0);
+        } while ( val1 != 0);
     }
 }
