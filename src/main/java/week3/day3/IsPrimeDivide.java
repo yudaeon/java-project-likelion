@@ -1,6 +1,6 @@
 package week3.day3;
 
-public class IsPrime {
+public class IsPrimeDivide {
     public static void main(String[] args) {
         int num = 7;
         int factors = 0; //약수의 개수
