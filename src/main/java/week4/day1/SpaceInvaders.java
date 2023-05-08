@@ -1,4 +1,4 @@
-package week4;
+package week4.day1;
 
 public class SpaceInvaders {
     int location; //멤버 변수 선언

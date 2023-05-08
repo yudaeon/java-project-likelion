@@ -1,4 +1,6 @@
-package week4;
+package week4.day1;
+
+import week4.day1.SpaceInvaders;
 
 public class SpaceInvadersTest {
     public static void main(String[] args) {

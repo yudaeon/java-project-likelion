@@ -1,6 +1,6 @@
-package week4;
+package week4.day1;
 
-import static org.junit.jupiter.api.Assertions.*;
+import week4.day1.Greet;
 
 class GreetTest {
     public static void main(String[] args) {

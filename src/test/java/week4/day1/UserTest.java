@@ -1,6 +1,7 @@
-package week4;
+package week4.day1;
 
-import static org.junit.jupiter.api.Assertions.*;
+import week4.day1.User;
+
 class UserTest {
     public static void main(String[] args) {
         User user1 = new User();
