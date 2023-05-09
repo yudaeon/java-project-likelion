@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class codeup1098 {
     public static void main(String[] args) {
         //2차원 배열 설탕과자 뽑기
+
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt(); //세로
         int w = sc.nextInt(); //가로
