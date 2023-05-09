@@ -1,7 +1,6 @@
 package week4.day2;
       //리팩토링 1번
     //생성자 붙이기 (생성자를 붙여야지 켜고 끌 수 있다)
-
 import java.util.Scanner;
 
 public class ReversePyramid {
@@ -14,6 +13,10 @@ public ReversePyramid(String spaceChar) {
         }
     public String makeAline(int h, int i) {
         return String.format("%s%s\n", spaceChar.repeat(i), "*".repeat(h + 4 +(-i * 2)));
+    }
+    //makeAline분리
+    public String makeParallelogramAline(int h, int i){
+        return String.format("%s%s\n", spaceChar.repeat(i), "*".repeat(h));
     }
 
     public static void main(String[] args) {
