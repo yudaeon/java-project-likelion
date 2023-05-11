@@ -3,8 +3,9 @@ package week4.day3;
 public class DrawDiamond {
     //다이아몬드 별찍기(피라미드&역피라미드 붙이기)
     public static String getRepeatedSymbol(String symbol, int n){
-        return symbol.repeat(n);
+     return symbol.repeat(n);
     }
+
     public static void main(String[] args) {
         int h = 7;
         int pivot = h / 2;

@@ -34,26 +34,47 @@ class Student {
             return new Student(code, testId, name);
         }
 
-        public boolean isDuplicated(Student pstudent) {
-            //중복여부check
+        private boolean isExist(Student pstudent) { //private 내부에서만 처리하도록
+            //중복 여부 check
             for (Student student : students) {
-                if (pstudent.getCode().equals(student.getCode())) return false;
+                if (pstudent.getCode().equals(student.getCode())) return true;
             }
-            return true;
+            return false;
         }
 
-            //중복 check를 한 후 넣는다.
-//---------------makeAStudent, isDuplicated--------------
+        private void addAStuent(Student student){
+            if (!isExist(student)){ //중복이 제거되지 않은 것에 추가
+             students.add(student);
+            }
+        }
+        private void deleteStudent(Student pStudent){
+            for (int i = 0; i < students.size(); i++) {
+              if (isExist(students.get(i))) students.remove(i);
+            }
+        }
+
+        public void process(Student pStudent){
+            switch (pStudent.getCode()){
+                case "I" -> addAStuent(pStudent);
+                case "D" -> deleteStudent(pStudent);
+            }
+        }
+
+        private void printStudents(){
+            for (Student student:
+                 students) {
+                System.out.printf("%s %s %s\n", student.getCode(), student.getTestId(), student.getName());
+            }
+        }
 
         public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-
             int size = 1;
-            String[]splitted = "I 1011 한라산".split(" ");
+            String[] splitted = "I 1011 한라산".split(" ");
+
             codeup3108 codeup3108 = new codeup3108();
-            Student student = codeup3108.makeAStudent(splitted[0], splitted[1], splitted[2]);
-            System.out.println(student.getCode());
-            System.out.println(student.getTestId());
-            System.out.println(student.getName());
+            Student student = codeup3108.makeAStudent(splitted[0], String.valueOf(Integer.parseInt(splitted[1])), splitted[2]);
+            codeup3108.process(student);
+            codeup3108.printStudents();
+
         }
 }

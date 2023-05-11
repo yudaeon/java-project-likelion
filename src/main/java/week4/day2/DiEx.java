@@ -10,6 +10,6 @@ public class DiEx {
     }
 
     public void doSth (){
-        shapeDrawer.printShape(5);
+      //  shapeDrawer.shapeDrawer(5);
     }
 }

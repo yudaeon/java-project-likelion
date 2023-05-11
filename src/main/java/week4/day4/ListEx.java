@@ -22,7 +22,6 @@ public class ListEx {
             System.out.println(item);
         }
 
-
         int[] arr = new int [3];
         arr[0] = 1;
         arr[0] = 0;
