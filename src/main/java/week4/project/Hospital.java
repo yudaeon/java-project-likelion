@@ -1,4 +1,4 @@
-package week4.day4.project;
+package week4.project;
 
 public class Hospital {
     private String name;
