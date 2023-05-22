@@ -1,6 +1,4 @@
 package week5.day3;
-
-import java.util.Arrays;
 import java.util.EmptyStackException;
 
 public class Stack1 {
